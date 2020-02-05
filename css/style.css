@@ -14,7 +14,7 @@ h1 {
 h3 {
   font-size: 100%; /* 16px */
   font-weight: italic; 
-  
+  text align: left;
 }
 
 p {
@@ -26,8 +26,11 @@ a {
   text-decoration: none;
   link: color:#0070BB; /* unvisited */
   visited: color:#0070BA; /* visited */
-  over: color:#0070BC; /* mouse over */
   active: color:#0070BD; /* selected */
+}
+
+a:hover {
+  color:#0070BC; /* mouse over */
 }
 
 body {
@@ -47,14 +50,16 @@ nav {
   width: 100px;
 }
 
+
 .large-pic {
   width: 100%;
 }
 
+
 .medium-pic {
   width: 70%;
-  background: #fff url(images/instagram-pic.jpg) no-repeat, top center;
 }
+
 
 .left, .right {
   float: left;
@@ -88,8 +93,8 @@ h3 {
 }
 
 p {
-   text align: left;
-   line-height: 1.2;
+  line-height: 1.2;
+  margin: 35px;
 }
 
 article {
