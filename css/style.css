@@ -4,11 +4,13 @@ body {
   font-size: 16px;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   line-height: 2em;
+  text align: left;
 }
 
 h1 {
   font-size: 2em; /* 32px */
   font-weight: bold;
+  text align: left;
 }
 
 h3 {
@@ -22,15 +24,19 @@ p {
   font-weight: normal;
 }
 
-a {
-  text-decoration: none;
-  link: color:#0070BB; /* unvisited */
-  visited: color:#0070BA; /* visited */
-  active: color:#0070BD; /* selected */
+a:visited {
+   color:#0070BA; /* visited */
 }
-
 a:hover {
   color:#0070BC; /* mouse over */
+}
+
+a:active {
+   color:#0070BD; /* selected */
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -81,13 +87,13 @@ li {
 }
 
 h1 {
-   text-align: center;
+   text align: left;
    text-transform: capitalize;
    line-height: 1.4;
 }
 
 h3 {
-   text-align: center;
+   text align: left;
    text-transform: capitalize;
    line-height: 1.2;
 }
@@ -95,6 +101,7 @@ h3 {
 p {
   line-height: 1.2;
   margin: 35px;
+  text align: left;
 }
 
 article {
